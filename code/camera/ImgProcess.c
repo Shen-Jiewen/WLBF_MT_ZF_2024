@@ -14,7 +14,7 @@
  *  version:    6月25日   解决全元素，同时拆分了一些函数
  *  version:    7月1日    环岛状态机简化
  *  version:    7月16日   解决了部分误判，优化了三岔路和车库状态机
- *  Author:     刘原岑         QQ:     398817314
+ *  Author:     刘原岑
  */
 
 #include "ImgProcess.h"
