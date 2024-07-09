@@ -1,8 +1,8 @@
-# 2024 Intelligent Vehicle Motorcycle Group - Wanling Bifang
+# 2024 Intelligent Car Motorcycle Group - Wanling Bifang
 
 #### Introduction
 
-This project is designed for the 19th motorcycle group, indoor track, with the K2 vehicle model.
+This project is for the 19th Motorcycle Group, indoor track, K2 model car.
 
 #### Software Architecture
 
@@ -12,30 +12,35 @@ This project is designed for the 19th motorcycle group, indoor track, with the K
 -[Debug] 
   -[...] System debug generated files
 -[code] Personal code folder
-  -[Fusion] Gyroscope attitude calculation library, see detailed reference at the end of the document
+  -[Algorithm] Algorithm library, containing commonly used mathematical functions
+  -[Fusion] Gyroscope attitude calculation library, detailed reference at the link below
   -[camera] Camera image processing code
   -[controller] 
-    -[ano] Wireless serial port transmission module
+    -[ano] Wireless serial port sending module
     -[balance] Balance control module, called by timer
     -[menu] Menu module
     -[pid] PID module
-    -[user_key] Key scanning module
+    -[user_key] Button scanning module
+  -[tld7002] Light show driver
 -[libraries]
-  -[...] Feifei open source libraries, omitted
+  -[...] ZOFly open-source library, omitted
 -[user]
   -[...] Core task scheduling, omitted
 ```
 
 #### Hardware Architecture
 
-Omitted
+ZF mainPCB
 
 #### References
 
 1. [Attitude Calculation Open Source Library](https://github.com/xioTechnologies/Fusion)
-2. [Feifei Motorcycle Group Analysis](https://mp.weixin.qq.com/s/qAG4r8Nu76s_rK_FdMEDYA)
+2. [ZOFly Motorcycle Group Analysis](https://mp.weixin.qq.com/s/qAG4r8Nu76s_rK_FdMEDYA)
+3. [ZOFly TC264 Open Source Driver Library](https://gitee.com/seekfree/TC264_Library)
 
 #### Contributors
 
-- Javen
-- Dai
+- Javen 
+  - QQ: 2452731211
+
+#### Open-source projects are not easy. If this project has helped you, please give our project a star. Thank you for your attention and support!
